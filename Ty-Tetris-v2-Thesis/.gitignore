@@ -1,0 +1,33 @@
+# Build
+bin/
+obj/
+
+# Linux
+Makefile
+libs/Makefile
+**/*.make
+
+# Windows
+**/*.sln
+**/*.vcxproj
+**/*.vcxproj.user
+**/*.vcxproj.filters
+.vs/
+
+# Mac
+**/*.xcodeproj
+**/*.xcworkspace
+**/*.xcuserdatad
+.DS_Store
+
+# ImGui
+imgui.ini
+
+# Editors
+.vscode
+.cache
+compile_commands.json
+
+# CMake
+build/
+
